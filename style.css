@@ -1,0 +1,106 @@
+.container{
+    border: 1px black;
+    padding: 100px;
+    display: flex;
+    width: 1000px;
+    height: 700px;
+    margin: 50px 100px 50px 300px;
+    background-color: rgb(248, 232, 248);
+    text-decoration-color: purple;
+    box-shadow: 8px 8px 10px 10px rgb(185, 181, 181);
+}
+.names{
+    display: inline-flex;
+    gap: 40px;
+}
+h1{
+    color: rgb(155, 6, 155);
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+    font-style: helvetica;
+    padding-left: 60px;
+}
+h2{
+    color: rgb(155, 7, 155);
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+input{
+    width: 95%;
+    font-size: large;
+    border-collapse: collapse;
+}
+
+.img{
+    width: 650px;
+    height: 600px;
+}
+.sign_up{
+    border-left: solid 2px rgb(245, 194, 245);
+    display: left;
+    width: 650px;
+    font-size: large;
+    padding: 0px 0px 0px 60px;
+}
+#submit_button{
+    background: none;
+    border: none;
+    border-radius: none;
+    padding: 12px 8px;
+    background-color:rgb(155, 7, 155) ;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 97%; 
+}
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgb(99, 96, 96);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgb(112, 107, 107);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+#google{
+    width: 65px;
+    height: 65px;
+}
+#facebook{
+    width: 65px;
+    height: 65px;
+}
+#apple{
+    width: 65px;
+    height: 65px;
+}
+.icons{
+    text-align: center;
+    justify-content: center;
+    display: flex; gap: 50px;
+    font-size: 40px;
+}

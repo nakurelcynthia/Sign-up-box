@@ -9,7 +9,7 @@
     text-decoration-color: purple;
     box-shadow: 8px 8px 10px 10px rgb(185, 181, 181);
 }
-.names{
+.identification{
     display: inline-flex;
     gap: 40px;
 }
@@ -18,14 +18,7 @@ h1{
     font-weight: bold;
     font-size: 50px;
     text-align: left;
-    font-style: helvetica;
-    padding-left: 60px;
-}
-h2{
-    color: rgb(155, 7, 155);
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
+    width: 70%;
 }
 h3{
     font-size: 30px;
